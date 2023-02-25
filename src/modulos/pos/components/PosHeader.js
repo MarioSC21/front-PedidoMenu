@@ -8,10 +8,10 @@ const PosHeader = () => {
 		<header className="header">
 			<div className="header__logo">
 				{/* <img src={miImagen} alt="" /> */}
-				<img src="/images/logo.svg" alt="" />
+				<img src="../../../../public/images/logo.svg" alt="" />
 			</div>
 			<div className="header__buscador">
-				<img src="/images/search.svg" alt="" />
+				<img src="../../../../public/images/search.svg" alt="" />
 				<input
 					type="text"
 					className="header__input"

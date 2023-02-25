@@ -14,7 +14,7 @@ const PosCategoria = ({ objCategoria }) => {
 
 	return (
 		<li onClick={seleccionarCategoria} className={activeClass}>
-			<img src="/images/plato_blanco.svg" alt="" />
+			<img src="../../../../build/images/plato_blanco.svg" alt="" />
 			<span>{objCategoria.categoria_nom}</span>
 		</li>
 	);
